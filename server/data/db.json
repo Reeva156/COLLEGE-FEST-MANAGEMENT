@@ -1,0 +1,382 @@
+{
+  "users": [
+    {
+      "id": "usr_student_2",
+      "name": "Devansh Dave",
+      "email": "devansh@fest.edu",
+      "passwordHash": "$2a$10$ZqJeOydFc4wNRuwhfY7IxuMPPVaarJzpWBoSgEnubvpG.OSsxsOi2",
+      "role": "participant",
+      "department": "BCA 2nd Year",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-10-14T12:04:39.000Z"
+    },
+    {
+      "id": "usr_admin_90514d7c",
+      "name": "RAHI MEHTA",
+      "email": "rahimehta@gmail.com",
+      "passwordHash": "$2a$10$/ZsdSX3yQCtWDk8KI0V.UOKGpxLJjKSjhCwN39ApsHcCSoexHDg82",
+      "role": "admin",
+      "department": "faculty , BCA",
+      "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=RAHI%20MEHTA%20",
+      "createdAt": "2026-10-19T10:24:22.985Z"
+    },
+    {
+      "id": "usr_ac5b32dd",
+      "name": "dhrumi",
+      "email": "dhrumi@gmail.com",
+      "passwordHash": "$2a$10$mlbyQHxpDQZ/hLnnitojoOJR/Ev0cTivptcjwgOlj3AjyjIEhRr82",
+      "role": "participant",
+      "department": "B.tech",
+      "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=dhrumi",
+      "createdAt": "2026-10-21T10:49:06.167Z",
+      "createdBy": "RAHI MEHTA"
+    }
+  ],
+  "events": [
+    {
+      "id": "ev_e3741fe1",
+      "title": "GAnesh Chaturthi",
+      "subtitle": "spiritual,religious",
+      "description": "Exciting college fest event.",
+      "category": "Cultural",
+      "tag": "⚡ Spotlight",
+      "date": "2026-11-28",
+      "time": "11:00 AM - 03:00 PM",
+      "venue": "rajkot",
+      "capacity": 100,
+      "registeredCount": 1,
+      "isTeamEvent": false,
+      "teamSize": {
+        "min": 1,
+        "max": 1
+      },
+      "deadline": "2026-10-28T10:51:57.727Z",
+      "registrationStatus": "Open",
+      "coverImage": "https://th.bing.com/th?id=OIF.4CpW6PnWiw5gStSxGHh%2fVA&w=301&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
+      "aspectRatio": "tall",
+      "rules": [
+        "1. Valid College ID Card is required.",
+        "2. Arrive at the venue 15 minutes prior to scheduled start.",
+        "3. Judges decision will be final and binding."
+      ],
+      "coordinator": {
+        "name": "Fest Committee",
+        "contact": "+91 99999 88888",
+        "email": "fest@college.edu"
+      },
+      "prize": "₹20,000 + Trophy & Merit Certificates"
+    },
+    {
+      "id": "ev_photo_04",
+      "title": "Aperture: Street & Campus Photography",
+      "subtitle": "Capture the soul of festivity through your lens",
+      "description": "Solo photography marathon. Capture the unseen moments, candid expressions, dynamic lights, and architectural shadows across the 3-day fest campus.",
+      "category": "Arts",
+      "tag": "📸 Creative",
+      "date": "2026-10-25",
+      "time": "09:00 AM - 03:00 PM",
+      "venue": "Media Studio & Campus Grounds",
+      "capacity": 50,
+      "registeredCount": 23,
+      "isTeamEvent": false,
+      "teamSize": {
+        "min": 1,
+        "max": 1
+      },
+      "deadline": "2026-10-24T18:00:00",
+      "registrationStatus": "Open",
+      "coverImage": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&auto=format&fit=crop&q=80",
+      "aspectRatio": "tall",
+      "rules": [
+        "Solo participation only.",
+        "Theme will be revealed at 09:00 AM on the day of event.",
+        "Submissions must retain original EXIF metadata. Minimal editing."
+      ],
+      "coordinator": {
+        "name": "Riya Sen",
+        "contact": "+91 97654 32190",
+        "email": "photo@college.edu"
+      },
+      "prize": "₹15,000 + Lens Kit"
+    },
+    {
+      "id": "ev_band_05",
+      "title": "Battle of the Bands: Rock & Fusion Night",
+      "subtitle": "Turn up the amplifiers and roar",
+      "description": "Live musical duel between the finest college bands. From rock anthems to soulful fusion, let your riffs and drumbeats captivate thousands of roaring fans.",
+      "category": "Cultural",
+      "tag": "🎸 Live",
+      "date": "2026-10-26",
+      "time": "06:00 PM - 10:00 PM",
+      "venue": "Grand Central Stage",
+      "capacity": 15,
+      "registeredCount": 12,
+      "isTeamEvent": true,
+      "teamSize": {
+        "min": 3,
+        "max": 8
+      },
+      "deadline": "2026-10-23T20:00:00",
+      "registrationStatus": "Open",
+      "coverImage": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&auto=format&fit=crop&q=80",
+      "aspectRatio": "square",
+      "rules": [
+        "Time slot: 15 minutes performance + 5 minutes soundcheck.",
+        "At least one original composition or creative fusion required.",
+        "Drum kit and sound engineer provided; bring own instruments."
+      ],
+      "coordinator": {
+        "name": "Aditya Roy",
+        "contact": "+91 98334 55667",
+        "email": "music@college.edu"
+      },
+      "prize": "₹50,000 + Studio Recording Session"
+    },
+    {
+      "id": "ev_quiz_06",
+      "title": "Brainiac: National General & Pop Quiz",
+      "subtitle": "Trivia, intellect, and razor-sharp deduction",
+      "description": "A mind-bending quiz featuring rounds on tech history, cinema, world events, meme lore, and scientific wonders. Hosted by renowned quizmasters.",
+      "category": "Literary",
+      "tag": "🧠 Intellect",
+      "date": "2026-10-24",
+      "time": "11:00 AM - 02:00 PM",
+      "venue": "Auditorium Hall 2",
+      "capacity": 60,
+      "registeredCount": 35,
+      "isTeamEvent": true,
+      "teamSize": {
+        "min": 2,
+        "max": 2
+      },
+      "deadline": "2026-10-23T23:59:00",
+      "registrationStatus": "Open",
+      "coverImage": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=80",
+      "aspectRatio": "tall",
+      "rules": [
+        "Teams of 2. Written preliminary round followed by top 6 stage finals.",
+        "No smart devices allowed during rounds.",
+        "Quizmaster decision is final."
+      ],
+      "coordinator": {
+        "name": "Kavita Nair",
+        "contact": "+91 99887 76655",
+        "email": "quiz@college.edu"
+      },
+      "prize": "₹20,000 + Hardcover Collector Books"
+    },
+    {
+      "id": "ev_robo_07",
+      "title": "RoboWars: Steel & Sparks Combat",
+      "subtitle": "May the best heavyweight bot survive",
+      "description": "Clash of custom wireless combat robots inside an enclosed safety bulletproof arena. Pushing power, flippers, spinning blades, and raw torque.",
+      "category": "Technical",
+      "tag": "🤖 Combat",
+      "date": "2026-10-25",
+      "time": "01:00 PM - 05:00 PM",
+      "venue": "Engineering Arena, Quadrangle",
+      "capacity": 20,
+      "registeredCount": 16,
+      "isTeamEvent": true,
+      "teamSize": {
+        "min": 2,
+        "max": 4
+      },
+      "deadline": "2026-10-22T18:00:00",
+      "registrationStatus": "Open",
+      "coverImage": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
+      "aspectRatio": "square",
+      "rules": [
+        "Weight limit: 15kg and 30kg class.",
+        "Failsafe pneumatic and radio cutoff mandatory.",
+        "Match duration: 3 minutes per round."
+      ],
+      "coordinator": {
+        "name": "Harsh Joshi",
+        "contact": "+91 98450 12345",
+        "email": "robotics@college.edu"
+      },
+      "prize": "₹40,000 + Maker Hardware Kits"
+    }
+  ],
+  "teams": [
+    {
+      "id": "team_alpha_01",
+      "teamName": "CyberKnights",
+      "eventId": "ev_hack_01",
+      "leaderId": "usr_student_1",
+      "memberIds": [
+        "usr_student_1",
+        "usr_student_2"
+      ],
+      "teamCode": "CYBER-749",
+      "createdAt": "2026-10-14T12:04:39.000Z"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "reg_demo_01",
+      "eventId": "ev_hack_01",
+      "participantId": "usr_student_1",
+      "participantName": "Reeva Solani",
+      "participantEmail": "reeva@fest.edu",
+      "isTeam": true,
+      "teamId": "team_alpha_01",
+      "teamName": "CyberKnights",
+      "qrToken": "FEST-HACK-CK99-REEVA",
+      "status": "Attended",
+      "registeredAt": "2026-10-12T12:04:39.000Z",
+      "checkedInAt": "2026-10-16T11:41:47.129Z",
+      "checkedInBy": "Prof. Ramesh Sharma"
+    },
+    {
+      "id": "reg_demo_02",
+      "eventId": "ev_photo_04",
+      "participantId": "usr_student_1",
+      "participantName": "Reeva Solani",
+      "participantEmail": "reeva@fest.edu",
+      "isTeam": false,
+      "teamId": null,
+      "teamName": null,
+      "qrToken": "FEST-PHOTO-REEVA-4482",
+      "status": "Attended",
+      "registeredAt": "2026-10-11T12:04:39.000Z",
+      "checkedInAt": "2026-10-13T12:04:39.000Z",
+      "checkedInBy": "usr_org_1"
+    },
+    {
+      "id": "reg_96820792",
+      "eventId": "ev_photo_04",
+      "eventTitle": "Aperture: Street & Campus Photography",
+      "eventDate": "2026-10-25",
+      "eventTime": "09:00 AM - 03:00 PM",
+      "eventVenue": "Media Studio & Campus Grounds",
+      "participantId": "usr_admin_1",
+      "participantName": "Prof. Ramesh Sharma",
+      "participantEmail": "admin@fest.edu",
+      "isTeam": false,
+      "teamId": null,
+      "teamName": null,
+      "qrToken": "PULSE-ART-PROF.-1368",
+      "qrCodeDataUrl": "data:image/png;base64,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",
+      "status": "Registered",
+      "registeredAt": "2026-10-16T11:42:25.302Z",
+      "checkedInAt": null,
+      "checkedInBy": null
+    },
+    {
+      "id": "reg_6f643ef9",
+      "eventId": "ev_42aefe9c",
+      "eventTitle": "GAnesh Chaturthi",
+      "eventDate": "2026-11-28",
+      "eventTime": "11:00 AM - 03:00 PM",
+      "eventVenue": "rajkot",
+      "participantId": "usr_admin_90514d7c",
+      "participantName": "RAHI MEHTA",
+      "participantEmail": "rahimehta@gmail.com",
+      "isTeam": false,
+      "teamId": null,
+      "teamName": null,
+      "qrToken": "PULSE-CUL-RAHIM-1058",
+      "qrCodeDataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAFACAYAAADNkKWqAAAAAklEQVR4AewaftIAAAYvSURBVO3BQRHjSBAEwNoOI9BPDMQfzTDQbyjsLYTTww6HKzP//P0nAIUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKUmAKVe+ZDjvML77XvlieO88gn7XnnqOK88te+VdzvOK7zfvlfebQJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQ6pUvtu+VZsd55Rvte+UT9r3yK/a90uw4r3yjCUCpCUCpCUCpCUCpCUCpCUCpCUCpCUCpCUCpCUCpCUCpCUCpV37McV75RvteaXacV57a98pTx3nliX2vfKvjvPKN9r3yKyYApSYApSYApSYApSYApSYApSYApSYApSYApSYApSYApSYApV6h2r5XnjrOK0/te+Wp47wC7zQBKDUBKDUBKDUBKDUBKDUBKDUBKDUBKDUBKDUBKDUBKPUK1Y7zyicc5xX4NhOAUhOAUhOAUhOAUhOAUhOAUhOAUhOAUhOAUhOAUhOAUhOAUq/8mH2v8P/te+UTjvMKz+x7hfeaAJSaAJSaAJSaAJSaAJSaAJSaAJSaAJSaAJSaAJSaAJSaAJR65Ysd5xXe6zivPLXvlU/Y98pTx3nlGx3nFb7PBKDUBKDUBKDUBKDUBKDUBKDUBKDUBKDUBKDUBKDUBKDUBKDUn7//BKDQBKDUBKDUBKDUBKDUBKDUBKDUBKDUBKDUBKDUBKDUBKDUKx9ynFee2vfKJxznFb7PvleeOs4r77bvlU84zitP7XvlieO88q32vfJuE4BSE4BSE4BSE4BSE4BSE4BSE4BSE4BSE4BSE4BSE4BSE4BSr/yY47zybvte+RXHeeWpfa98wnFeebd9r3zCcV75hOO88o32vfKNJgClJgClJgClJgClJgClJgClJgClJgClJgClJgClJgClJgCl/vz9J7zdcV75RvteaXacV37Jvle+0XFeeWrfK+82ASg1ASg1ASg1ASg1ASg1ASg1ASg1ASg1ASg1ASg1ASg1ASj1yhc7zitP7XvlqeO88m77XvlGx3nlqX2vfKvjvPLEvld+yXFeeWLfK5+w75VvNAEoNQEoNQEoNQEoNQEoNQEoNQEoNQEoNQEoNQEoNQEoNQEo9efvP/khx3nl3fa98gnHeeXd9r3yCcd55Vfse+Wp47zy1L5X3u04r3zCvle+0QSg1ASg1ASg1ASg1ASg1ASg1ASg1ASg1ASg1ASg1ASg1J+//4Rax3ml2b5XPuE4rzy175VvdJxXPmHfK+82ASg1ASg1ASg1ASg1ASg1ASg1ASg1ASg1ASg1ASg1ASg1ASj1yocc5xXeb98r77bvlU84zitP7XvlieO88tS+V57a98qv2PfKr5gAlJoAlJoAlJoAlJoAlJoAlJoAlJoAlJoAlJoAlJoAlJoAlHrli+17pdlxXvlGx3nlqX2vPLXvlXfb98pTx3nlE/a9wntNAEpNAEpNAEpNAEpNAEpNAEpNAEpNAEpNAEpNAEpNAEpNAEq98mOO88o32vfKr9j3yicc55VvtO+Vp47zyicc55Un9r3SbAJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQ6hV46DivNDvOK59wnFee2vfKE8d55al9r/yKCUCpCUCpCUCpCUCpCUCpCUCpCUCpCUCpCUCpCUCpCUCpV6i275WnjvPKt9r3yhPHeeWpfa/8in2vPHWcVz5h3yvvNgEoNQEoNQEoNQEoNQEoNQEoNQEoNQEoNQEoNQEoNQEoNQEo9cqP2fcK32ffK08d55VvdJxXPmHfK08d55Un9r3yCfte+UYTgFITgFITgFITgFITgFITgFITgFITgFITgFITgFITgFITgFKvfLHjvMJ7HeeVb7XvlaeO88q77XvlqeO88tRxXnm347zSbAJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQ6s/ffwJQaAJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQagJQ6j8VH/eM9tKMyAAAAABJRU5ErkJggg==",
+      "status": "Registered",
+      "registeredAt": "2026-10-21T10:51:35.670Z",
+      "checkedInAt": null,
+      "checkedInBy": null
+    },
+    {
+      "id": "reg_3a6a2317",
+      "eventId": "ev_e3741fe1",
+      "eventTitle": "GAnesh Chaturthi",
+      "eventDate": "2026-11-28",
+      "eventTime": "11:00 AM - 03:00 PM",
+      "eventVenue": "rajkot",
+      "participantId": "usr_ac5b32dd",
+      "participantName": "dhrumi",
+      "participantEmail": "dhrumi@gmail.com",
+      "isTeam": false,
+      "teamId": null,
+      "teamName": null,
+      "qrToken": "PULSE-CUL-DHRUM-8082",
+      "qrCodeDataUrl": "data:image/png;base64,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",
+      "status": "Registered",
+      "registeredAt": "2026-10-21T10:52:28.007Z",
+      "checkedInAt": null,
+      "checkedInBy": null
+    }
+  ],
+  "results": [
+    {
+      "id": "res_photo_01",
+      "eventId": "ev_photo_04",
+      "eventTitle": "Aperture: Street & Campus Photography",
+      "status": "Published",
+      "publishedAt": "2026-10-14T00:04:39.000Z",
+      "publishedBy": "Prof. Ramesh Sharma",
+      "winners": [
+        {
+          "position": "1st Place",
+          "recipientName": "Reeva Solani",
+          "participantId": "usr_student_1",
+          "college": "School of Computer Applications",
+          "prize": "₹15,000 + Gold Medal",
+          "certificateIssued": true
+        },
+        {
+          "position": "2nd Place",
+          "recipientName": "Kunal Deshmukh",
+          "participantId": "usr_external_9",
+          "college": "National Institute of Design",
+          "prize": "₹10,000 + Silver Medal",
+          "certificateIssued": true
+        },
+        {
+          "position": "3rd Place",
+          "recipientName": "Ananya Roy",
+          "participantId": "usr_external_10",
+          "college": "Delhi Arts College",
+          "prize": "₹5,000 + Bronze Medal",
+          "certificateIssued": true
+        }
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert_reeva_01",
+      "registrationId": "reg_demo_02",
+      "participantId": "usr_student_1",
+      "participantName": "Reeva Solani",
+      "eventId": "ev_photo_04",
+      "eventTitle": "Aperture: Street & Campus Photography",
+      "category": "Arts & Media",
+      "position": "1st Place Winner (Gold)",
+      "issueDate": "October 25, 2026",
+      "verificationCode": "PULSE-2026-ART-00194",
+      "signatureAuthority": "Prof. Ramesh Sharma (Convener)"
+    },
+    {
+      "id": "cert_uarupagvl",
+      "registrationId": "reg_demo_01",
+      "participantId": "usr_student_1",
+      "participantName": "Reeva Solani",
+      "eventId": "ev_hack_01",
+      "category": "Fest Participation",
+      "position": "Participant",
+      "issueDate": "October 16, 2026",
+      "verificationCode": "PULSE-2026-MO_01",
+      "signatureAuthority": "Prof. Ramesh Sharma (Convener)"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "cnt_01",
+      "name": "Rohan Mehra",
+      "email": "rohan.m@gmail.com",
+      "subject": "Inquiry regarding outside college team participation",
+      "message": "Hello, can non-host college students participate in the CodeBlitz Hackathon as mixed teams?",
+      "status": "Resolved",
+      "createdAt": "2026-10-14T12:04:39.000Z"
+    }
+  ]
+}
