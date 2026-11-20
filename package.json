@@ -1,0 +1,16 @@
+{
+  "name": "college-fest-management-platform",
+  "version": "1.0.0",
+  "description": "College Fest Management Platform - AURA 26 (BCA 2nd Year Project)",
+  "author": "Reeva Solani",
+  "scripts": {
+    "dev": "concurrently \"node server/server.js\" \"npm run dev --prefix client\"",
+    "server": "node server/server.js",
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "node server/server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
